@@ -9,7 +9,7 @@ Grunt task to compile [JSDuck](https://github.com/senchalabs/jsduck) documentati
 
 You need to have Ruby and JSDuck installed. Refer to project homepage for installation instructions.
 
-Install this grunt plugin next to your project's [grunt.js gruntfile][https://github.com/gruntjs/grunt/blob/master/docs/getting_started.md] with: `npm install grunt-jsduck`
+Install this grunt plugin next to your project's [grunt.js gruntfile](https://github.com/gruntjs/grunt/blob/master/docs/getting_started.md) with: `npm install grunt-jsduck`
 
 Then add this line to your project's `grunt.js` gruntfile:
 
