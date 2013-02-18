@@ -7,7 +7,7 @@ Grunt task to compile [JSDuck](https://github.com/senchalabs/jsduck) documentati
 
 ### Installation
 
-At the moment the task works with either `~0.4.0` or `~0.3.0`.
+At the moment the task works with either Grunt `~0.4.0` or `~0.3.0`.
 
 You need to have Ruby and JSDuck installed. Refer to project homepage for installation instructions.
 
