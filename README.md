@@ -7,9 +7,11 @@ Grunt task to compile [JSDuck](https://github.com/senchalabs/jsduck) documentati
 
 ### Installation
 
+At the moment the task works with either `~0.4.0` or `~0.3.0`.
+
 You need to have Ruby and JSDuck installed. Refer to project homepage for installation instructions.
 
-Install this grunt plugin next to your project's [grunt.js gruntfile](https://github.com/gruntjs/grunt/blob/master/docs/getting_started.md) with: `npm install grunt-jsduck`
+Install this grunt plugin next to your project's [grunt.js gruntfile](http://gruntjs.com/getting-started) with: `npm install grunt-jsduck`
 
 Then add this line to your project's `grunt.js` gruntfile:
 
@@ -62,7 +64,7 @@ jsduck: {
 
 ### Running
 
-Running the jsduck [multitask](https://github.com/gruntjs/grunt/blob/master/docs/types_of_tasks.md#multi-tasks) without additional parameters will execute it with all specified targets:
+Running the jsduck [multitask](https://github.com/gruntjs/grunt/wiki/Configuring-tasks) without additional parameters will execute it with all specified targets:
 
 ```
 grunt jsduck
@@ -90,4 +92,4 @@ Please follow the existing coding style. Respect the [`.editorconfig`](http://ed
 
 ## License
 
-Copyright (c) 2012 Dmitry Pashkevich, contributors. Licensed under the MIT license.
+Copyright (c) 2012-2013 Dmitry Pashkevich, contributors. Licensed under the MIT license.
