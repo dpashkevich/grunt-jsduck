@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         var helpers = require('grunt-lib-contrib').init(grunt),
             cmd = 'jsduck',
             options = helpers.options(this),
-            src = this.hasOwnProperty('file') ? this.file.src : this.data.src,
+            src = this.filesSrc,
             dest = outDir || (this.hasOwnProperty('dest') ? this.file.dest : this.data.dest),
             args,
             done = this.async(),
