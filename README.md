@@ -7,7 +7,8 @@ Grunt task to compile [JSDuck](https://github.com/senchalabs/jsduck) documentati
 
 ### Installation
 
-At the moment the task works with either Grunt `~0.4.0` or `~0.3.0`.
+**WARNING!** Starting from version `1.0.0`, the task is incompatible with Grunt `0.3`.
+Use the legacy `0.1.x` version you still use Grunt `0.3`.
 
 You need to have Ruby and JSDuck installed. Refer to project homepage for installation instructions.
 
@@ -26,7 +27,7 @@ Read the [JSDuck Guide](https://github.com/senchalabs/jsduck/wiki/Guide) for an 
 
 #### src
 
-Input directories containing JavaScript code to document.
+Input paths containing JavaScript code to document. You can use wildcards here (see example below).
 
 #### dest
 
@@ -46,7 +47,7 @@ jsduck: {
         src: [
             'ext-4.1.1/src',
             'project1/js',
-            'project2/js'
+            'project2/**/*.js'  // globbing supported!
         ],
 
         // docs output dir
