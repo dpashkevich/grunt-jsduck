@@ -1,7 +1,7 @@
 {
   "name": "grunt-jsduck",
   "description": "Compile JSDuck documentation.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/dpashkevich/grunt-jsduck",
   "author": {
     "name": "Dmitry Pashkevich",
