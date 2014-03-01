@@ -9,9 +9,9 @@
 module.exports = function(grunt) {
     'use strict';
     grunt.registerMultiTask('jsduck', 'Compile JSDuck documentation', function(outDir) {
-        var helpers = require('grunt-lib-contrib').init(grunt),
+        var dargs = require('dargs'),
             cmd = 'jsduck',
-            options = helpers.options(this),
+            options = this.options(),
             src = this.filesSrc,
             dest = outDir || (this.hasOwnProperty('dest') ? this.file.dest : this.data.dest),
             args,
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         args = src.concat([
                 '--output', dest
                ],
-               helpers.optsToArgs(options));
+               dargs(options));
 
         jsduck = grunt.util.spawn({
             cmd: cmd,
