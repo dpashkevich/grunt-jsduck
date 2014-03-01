@@ -1,4 +1,4 @@
-# grunt-jsduck
+# grunt-jsduck [![NPM version](https://badge.fury.io/js/grunt-jsduck.png)](http://badge.fury.io/js/grunt-jsduck)
 
 Grunt task to compile [JSDuck](https://github.com/senchalabs/jsduck) documentation
 
