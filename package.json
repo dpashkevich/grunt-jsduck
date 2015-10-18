@@ -1,7 +1,7 @@
 {
   "name": "grunt-jsduck",
   "description": "Compile JSDuck documentation.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/dpashkevich/grunt-jsduck",
   "author": {
     "name": "Dmitry Pashkevich",
@@ -22,13 +22,14 @@
   ],
   "main": "tasks/jsduck.js",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "dependencies": {
     "dargs": "~0.1.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": "~0.4.5",
+    "grunt-cli": "0.1.13"
   },
   "keywords": [
     "gruntplugin",
