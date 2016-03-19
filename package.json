@@ -22,13 +22,13 @@
   ],
   "main": "tasks/jsduck.js",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "dependencies": {
     "dargs": "~0.1.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": "0.4.0"
   },
   "keywords": [
     "gruntplugin",
